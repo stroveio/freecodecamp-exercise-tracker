@@ -1,4 +1,4 @@
 {
-    "init": "yarn",
+    "init": "yarn && mongod --dbpath=./db",
     "ports": ["27017"]
 }
